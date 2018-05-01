@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">About Pencake</string>
+
+    <string name="email_subject">Pencake Order Inquiries</string>
+
+    <string name="image_view_cd_pencake_logo">Pencake logo</string>
+    <string name="image_view_cd_sample_image_1">Sample cake image 1</string>
+    <string name="image_view_cd_sample_image_2">Sample cake image 2</string>
+    <string name="image_view_cd_sample_image_3">Sample cake image 3</string>
+
+    <string name="text_view_name">Pencake Bakery</string>
+    <string name="text_view_description">At Pencake, we offer a wide variety of beautiful butter cream cakes and other kind of cakes for your special occasions. We handpicked only the high quality ingredients and we ensure that our cakes are always freshly baked and delicious.\n\nCall or email us to order your cake or to request any further information. Currently, we do not deliver so cake orders must be picked up at our pick-up location.</string>
+    <string name="text_view_phone_number" translatable="false">+1 (647) 123 4567</string>
+    <string name="text_view_email" translatable="false">contact@pencake.co</string>
+    <string name="text_view_address" translatable="false">2700 Aquitaine Ave, Mississauga, ON L5N 3J6</string>
+
+</resources>

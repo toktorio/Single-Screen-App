@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.timotiusoktorio.singlescreenapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/image_view_cd_pencake_logo"
+                android:src="@drawable/ic_pencake_logo_white" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorImageBackground"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_view_cd_sample_image_1"
+                android:src="@drawable/ic_butter_cream_cake_1" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_view_cd_sample_image_2"
+                android:src="@drawable/ic_butter_cream_cake_2" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_view_cd_sample_image_3"
+                android:src="@drawable/ic_kue_lapis" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/text_view_name"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
+                tools:targetApi="jelly_bean" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/text_view_description"
+                tools:targetApi="jelly_bean" />
+
+            <TextView
+                style="@style/ContactDetailsTextView"
+                android:drawableStart="@drawable/ic_phone"
+                android:onClick="dialPhoneNumber"
+                android:text="@string/text_view_phone_number" />
+
+            <TextView
+                style="@style/ContactDetailsTextView"
+                android:drawableStart="@drawable/ic_email"
+                android:onClick="sendEmail"
+                android:text="@string/text_view_email" />
+
+            <TextView
+                style="@style/ContactDetailsTextView"
+                android:drawableStart="@drawable/ic_map_marker"
+                android:onClick="viewLocation"
+                android:text="@string/text_view_address" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
